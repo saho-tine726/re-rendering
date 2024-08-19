@@ -30,7 +30,7 @@ export default function Parent() {
       <p>親コンポーネントです！</p>
       <input type="text" onChange={handleChange} value={text} className="border-2 border-gray-900" />
       <Child_1 />
-      {/* <Child_2 /> */}
+      <Child_2 />
     </div>
   );
 }
