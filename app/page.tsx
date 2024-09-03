@@ -27,7 +27,7 @@ export default function Parent() {
 
   return (
     <div>
-      <p>親コンポーネントです！</p>
+      {/* <p>親コンポーネントです！</p> */}
       <input type="text" onChange={handleChange} value={text} className="border-2 border-gray-900" />
       <Child_1 />
       <Child_2 />
